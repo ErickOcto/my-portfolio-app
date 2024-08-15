@@ -1,5 +1,6 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
+import { images } from "../../constants";
 
 const Projects = () => {
   return (
@@ -77,7 +78,7 @@ const cards = [
     id: 3,
   },
   {
-    url: "/src/assets/renthouse.png",
+    url: {images.renthouse},
     title: "Nidejia",
     link: "https://github.com/ErickOcto/Nidejia-Backend",
     id: 4,
