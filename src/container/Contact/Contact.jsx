@@ -4,9 +4,11 @@ export default function Contact(){
   return (
     <section
       id="contact"
-      className="grid place-content-center gap-2 dark:bg-black bg-white px-8 py-24 text-black dark:text-white h-screen"
+      className="grid place-content-center gap-2 text-center dark:bg-black bg-white px-8 py-24 text-black dark:text-white h-screen"
     >
-      <FlipLink href="https://github.com/ErickOcto">Github</FlipLink>
+      <FlipLink href="https://github.com/ErickOcto">
+        Github
+      </FlipLink>
       <FlipLink href="https://www.linkedin.com/in/frederick-octo-ramadani">
         Linkedin
       </FlipLink>

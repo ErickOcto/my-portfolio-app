@@ -6,7 +6,7 @@ const TOGGLE_CLASSES =
   "text-sm font-medium flex items-center gap-2 px-3 md:pl-3 md:pr-3.5 py-3 md:py-1.5 transition-colors relative z-50";
 
 const Toggle = () => {
-  const [selected, setSelected] = useState("light");
+  const [selected, setSelected] = useState("dark");
 
   useEffect(() => {
     if (selected === "light") {
@@ -36,7 +36,7 @@ const SliderToggle = ({ selected, setSelected }) => {
           setSelected("light");
         }}
       >
-        <FiMoon className="relative z-50 text-lg md:text-sm" />
+        <FiSun className="relative z-50 text-lg md:text-sm" />
         <span className="relative z-50">Light</span>
       </button>
       <button
@@ -47,7 +47,7 @@ const SliderToggle = ({ selected, setSelected }) => {
           setSelected("dark");
         }}
       >
-        <FiSun className="relative z-50 text-lg md:text-sm dark:text-black" />
+        <FiMoon className="relative z-50 text-lg md:text-sm dark:text-black" />
         <span className="relative z-50 dark:text-black">Dark</span>
       </button>
       <div

@@ -27,7 +27,6 @@ const HorizontalScrollCarousel = () => {
           })}
         </motion.div>
       </div>
-      Tes
     </section>
   );
 };

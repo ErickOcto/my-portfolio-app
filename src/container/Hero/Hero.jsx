@@ -1,27 +1,28 @@
 import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { FiArrowRight } from "react-icons/fi";
+import { images } from "../../constants";
 
 export default function Hero(){
   return (
     <section className="dark:bg-black md:p-8">
-      <div className="mx-auto h-screen max-w-5xl">
+      <div className="mx-auto my-auto h-screen max-w-5xl">
         <Link
           heading="Who Am I"
           subheading="A Glimpse Into My Creative World"
-          imgSrc="/src/assets/me.png"
+          imgSrc={images.me}
           href="#aboutMe"
         />
         <Link
-          heading="My Works"
+          heading="My Projects"
           subheading="A Showcase of My Creative World"
-          imgSrc="/src/assets/renthouse.png"
+          imgSrc={images.rentHouse}
           href="#projects"
         />
         <Link
           heading="Experience"
           subheading="Collaborations & Achievements"
-          imgSrc="/src/assets/lks.jpeg"
+          imgSrc={images.lks}
           href="#experiences"
         />
         <Link
@@ -31,7 +32,7 @@ export default function Hero(){
           href="#skills"
         />
         <Link
-          heading="Contact"
+          heading="SocialMedia"
           subheading="Get in Touch for Your Next Project"
           imgSrc="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNvY2lhbCUyMG1lZGlhfGVufDB8fDB8fHwy"
           href="#contact"
