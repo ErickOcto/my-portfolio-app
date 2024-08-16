@@ -6,7 +6,7 @@ import { images } from "../../constants";
 export default function Hero(){
   return (
     <section className="dark:bg-black md:p-8">
-      <div className="mx-auto my-auto h-screen max-w-5xl">
+      <div className="mx-auto my-auto min-h-screen max-w-5xl">
         <Link
           heading="Who Am I"
           subheading="A Glimpse Into My Creative World"

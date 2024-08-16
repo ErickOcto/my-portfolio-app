@@ -4,7 +4,7 @@ export default function Skill() {
   return (
     <section
       id="skills"
-      className="dark:bg-black dark:text-white h-screen flex justify-center items-center"
+      className="dark:bg-black dark:text-white min-h-screen flex justify-center items-center"
     >
       <div className="wrapper">
         <div className="max-w-5xl mx-auto mb-4">
