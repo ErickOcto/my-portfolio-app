@@ -8,7 +8,7 @@ export default function Skill() {
     >
       <div className="wrapper">
         <div className="max-w-5xl mx-auto mb-4">
-          <h1 className="whitespace-nowrap text-4xl text-center font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl">
+          <h1 className="whitespace-nowrap text-4xl text-center font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl mb-16">
             Skills
           </h1>
         </div>
@@ -30,13 +30,13 @@ export default function Skill() {
 
 const SkillCard = ({ imgUrl, title, desc, tags }) => {
   return (
-    <div className="flex flex-row items-center  shadow-sm w-full">
+    <div className="flex flex-row items-center  shadow-sm w-full rounded-xl">
       <div
         className="w-24 h-24 bg-cover bg-center m-2"
         style={{ backgroundImage: `url(${imgUrl})` }}
       />
       <div>
-        <h2 className="text-2xl text-white">{title}</h2>
+        <h2 className="text-2xl text-black dark:text-white">{title}</h2>
         <p className="text-base text-gray-400">{desc}</p>
       </div>
     </div>
@@ -77,5 +77,10 @@ const skills = [
       "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
     title: "Bootstrap",
     desc: "Component-based Framework",
+  },
+  {
+    image: "https://pngimg.com/d/mysql_PNG23.png",
+    title: "MySQL",
+    desc: "Relational DBMS",
   },
 ];

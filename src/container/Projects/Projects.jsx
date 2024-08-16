@@ -121,13 +121,13 @@ const cards = [
   {
     url: images.cretech,
     title: "CRETECH",
-    link: "pplg.vercel.app",
+    link: "https://www.pplg.site",
     id: 11,
   },
   {
     url: images.sinarJaya,
     title: "SINAR JAYA",
-    link: "sinarjaya.vercel.app",
+    link: "https://sinarjaya.vercel.app/",
     id: 12,
   },
   {
