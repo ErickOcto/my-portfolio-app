@@ -6,7 +6,7 @@ import theClass from "../assets/the-class.png";
 import sinarJaya from "../assets/sinar-jaya.png";
 import wiraba from "../assets/wiraba.png";
 import smrent from "../assets/smrent.png";
-import renthouse from "../assets/renthouse.png";
+import rentHouse from "../assets/renthouse.png";
 import me from "../assets/me.png";
 import lks from "../assets/lks.jpeg";
 import laracamp from "../assets/laracamp.png";
@@ -25,7 +25,7 @@ export default {
   sinarJaya,
   wiraba,
   smrent,
-  renthouse,
+  rentHouse,
   me,
   lks,
   laracamp,
