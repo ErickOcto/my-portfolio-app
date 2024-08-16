@@ -32,7 +32,7 @@ const SkillCard = ({ imgUrl, title, desc, tags }) => {
   return (
     <div className="flex flex-row items-center  shadow-sm w-full rounded-xl">
       <div
-        className="w-24 h-24 bg-cover bg-center m-2"
+        className="min-w-24 min-h-24 bg-cover bg-center m-2"
         style={{ backgroundImage: `url(${imgUrl})` }}
       />
       <div>
