@@ -30,13 +30,15 @@ export default function Skill() {
 
 const SkillCard = ({ imgUrl, title, desc, tags }) => {
   return (
-    <div className="flex flex-row items-center  shadow-sm w-full rounded-xl">
+    <div className="flex flex-row items-center group duration-300 hover:dark:bg-white hover:bg-black shadow-sm w-full rounded-xl">
       <div
         className="min-w-24 min-h-24 bg-cover bg-center m-2"
         style={{ backgroundImage: `url(${imgUrl})` }}
       />
       <div>
-        <h2 className="text-2xl text-black dark:text-white">{title}</h2>
+        <h2 className="text-2xl dark:text-white duration-300 group-hover:dark:text-black group-hover:text-white">
+          {title}
+        </h2>
         <p className="text-base text-gray-400">{desc}</p>
       </div>
     </div>
@@ -79,8 +81,19 @@ const skills = [
     desc: "Component-based Framework",
   },
   {
+    image:
+      "https://seeklogo.com/images/J/jira-logo-C71F8C0324-seeklogo.com.png",
+    title: "JIRA Software",
+    desc: "Productivity App",
+  },
+  {
     image: "https://pngimg.com/d/mysql_PNG23.png",
     title: "MySQL",
     desc: "Relational DBMS",
+  },
+  {
+    image: "https://book.git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+    title: "Git",
+    desc: "Version Control System",
   },
 ];
